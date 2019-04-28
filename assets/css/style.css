@@ -106,9 +106,10 @@ body {
     display: inline-block;
     padding: 0;
     margin: 0 1rem;
+    border-bottom: 1px solid transparent;
 }
 .header-menu .nav-item:hover .nav-link {
-    border-bottom: 1px solid;
+    border-color: inherit;
 }
 .brand-name {
     
@@ -179,52 +180,12 @@ p.about-description {
 }
 
 /* ################  MEDIA QUERIES ################ */
-
-@media (min-width: 1373px) {
-    /* .portfolio-item-wrapper {
-        height: 268.188px;
-
-    } */
-}
-@media (min-width: 768px) {
-    /* .portfolio-item-wrapper:first-child img {
-        left: -148px;
-        bottom: 129px;
-    }
-    .portfolio-item-wrapper:nth-child(2) img {
-        bottom: 293px;
-        right: 63px;
-    }
-    .portfolio-item-wrapper:nth-child(3) img {
-        right: 69px;
-        bottom: 16px;
-    }
-    .portfolio-item-wrapper:nth-child(4) img {
-        right: 69px;
-        bottom: 30px;
-    } */
-    .portfolio-item-wrapper:nth-child(5) img {
-    }
-    .portfolio-item-wrapper:nth-child(6) img {
-        
-    }
-}
-@media (max-width: 1300px) {
-    .page-center {
-    }
-}
 @media (max-width: 1200px) {
-    .page-center {
-    }
     ::-webkit-scrollbar {
         display: none;
     }
 }
 @media (max-width: 768px) {
-    .page-center {
-    }
-    .header-container .page-center {
-    }
     .main-content img {
         max-width: 100%;
         width: 100%;
@@ -234,29 +195,5 @@ p.about-description {
         float: none;
         display: block;
         margin-bottom: 25px;
-        /* height: calc(53vw); */
     }
-    /* .portfolio-item-wrapper:first-child img {
-        bottom: 41%;
-    }
-    .portfolio-item-wrapper:nth-child(2) img {
-        bottom: 93%;
-    }
-    .portfolio-item-wrapper:nth-child(3) img {
-        bottom: 4%;
-    }
-    .portfolio-item-wrapper:nth-child(4) img {
-        bottom: 30px;
-    } */
-    .portfolio-item-wrapper:nth-child(5) img {
-    }
-}
-@media (max-width: 500px) {
-    .header-container .brand-name, .header-container .header-menu-wrapper {
-        
-    }
-    .header-container .header-menu-wrapper .header-menu {
-        
-    }
-
 }
