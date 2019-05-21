@@ -87,7 +87,8 @@ body {
     background: #fff;
 }
 .header-container.sticky .brand-name h2,
-.header-container.sticky ul.header-menu li a {
+.header-container.sticky ul.header-menu li a,
+.header-container.sticky .menu-item .nav-link i.fas {
     color: #8b8a8a!important;
 }
 .header-menu-wrapper {
