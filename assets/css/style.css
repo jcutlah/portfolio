@@ -111,6 +111,9 @@ body {
 .header-menu .nav-item:hover .nav-link {
     border-color: inherit;
 }
+.menu-item .nav-link i.fas {
+    color: #fff;
+}
 .brand-name {
     
     
