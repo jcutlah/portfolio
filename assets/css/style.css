@@ -182,6 +182,13 @@ p.about-description {
 .footer .row {
     max-width: 100%;
 }
+input.hs-input, text-area.hs-input {
+    color: #fff;
+    font-size: 20px;
+}
+input.hs-input {
+    text-align: center;
+}
 
 /* ################  MEDIA QUERIES ################ */
 @media (max-width: 1200px) {
