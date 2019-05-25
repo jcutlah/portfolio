@@ -55,7 +55,8 @@ a:hover {
 }
 body {
     margin: 0;
-    background-image:  url("../images/brick-background.jpg");
+    background-image:  url("../images/slate.jpg");
+    background-size: cover;
     display: flex;
     flex-direction: column;
 }
