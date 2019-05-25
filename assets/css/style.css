@@ -191,11 +191,26 @@ input.hs-input, text-area.hs-input {
 input.hs-input {
     text-align: center;
 }
+.contact-list {
+    list-style: none;
+    color: #fff;
+    
+}
+.contact-list li a {
+    color: #fff;
+    text-decoration: none;
+}
 
 /* ################  MEDIA QUERIES ################ */
 @media (max-width: 1200px) {
     ::-webkit-scrollbar {
         display: none;
+    }
+}
+@media (max-width: 992px) {
+    .brand-name,
+    .header-menu-wrapper {
+        margin: 0 auto;
     }
 }
 @media (max-width: 768px) {
