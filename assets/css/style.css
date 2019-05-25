@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 a:hover {
     text-shadow: 1px 0 #4aaaa5;
     transition: text-shadow .2s ease;
+    cursor: pointer;
 }
 body {
     margin: 0;
@@ -199,6 +200,21 @@ input.hs-input {
 .contact-list li a {
     color: #fff;
     text-decoration: none;
+}
+a.github-link {
+    position: absolute;
+    padding: 5px 8px;
+    top: 0;
+    left: 25px;
+    z-index: 3;
+    top: 5px;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+}
+.portfolio-item-wrapper:hover a.github-link {
+    opacity: 1;
 }
 
 /* ################  MEDIA QUERIES ################ */
