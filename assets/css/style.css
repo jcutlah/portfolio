@@ -48,6 +48,7 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
+    text-transform: uppercase;
 }
 a:hover {
     text-shadow: 1px 0 #4aaaa5;
@@ -55,7 +56,8 @@ a:hover {
 }
 body {
     margin: 0;
-    background-image:  url("../images/brick-background.jpg");
+    background-image:  url("../images/slate.jpg");
+    background-size: cover;
     display: flex;
     flex-direction: column;
 }
@@ -181,6 +183,13 @@ p.about-description {
 }
 .footer .row {
     max-width: 100%;
+}
+input.hs-input, text-area.hs-input {
+    color: #fff;
+    font-size: 20px;
+}
+input.hs-input {
+    text-align: center;
 }
 
 /* ################  MEDIA QUERIES ################ */
