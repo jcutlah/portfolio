@@ -41,7 +41,7 @@ html, body {
     min-height: calc(100vh);
 }
 * {
-    color: #777;
+    /* color: #777; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     transition: all .5s ease;
 }
