@@ -83,7 +83,7 @@ body {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    z-index: 1;
+    z-index: 999;
     padding: .5rem 0;
 }
 .header-container.sticky {
@@ -216,6 +216,19 @@ a.github-link {
 .portfolio-item-wrapper:hover a.github-link {
     opacity: 1;
 }
+#mobile-trigger {
+    color: #fff;
+    display: none;
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+}
+#mobile-trigger:hover {
+    cursor:pointer;
+}
+.sticky #mobile-trigger {
+    color: #ccc;
+}
 
 /* ################  MEDIA QUERIES ################ */
 @media (max-width: 1200px) {
@@ -228,6 +241,12 @@ a.github-link {
     .header-menu-wrapper {
         margin: 0 auto;
     }
+    .portfolio-item-wrapper a.github-link {
+        opacity: 1;
+    }
+
+    
+
 }
 @media (max-width: 768px) {
     .main-content img {
@@ -239,5 +258,31 @@ a.github-link {
         float: none;
         display: block;
         margin-bottom: 25px;
+    }
+
+    /* ### MOBILE MENU ### */
+
+    .header-menu {
+        display:none;
+    }
+    .mobile-menu .header-menu {
+        display:block;
+    }
+
+    .mobile-menu li.menu-item.nav-item {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .mobile-menu li.menu-item.nav-item+li.menu-item.nav-item {
+        border-top: 1px solid #fff;
+    }
+    .mobile-menu li.menu-item.nav-item:before {
+        content:"";
+    }
+    .mobile-menu .sticky li.menu-item.nav-item+li.menu-item.nav-item {
+        border-top: 1px solid #ccc;
+    }
+    #mobile-trigger {
+        display: block;
     }
 }
