@@ -218,16 +218,25 @@ a.github-link {
 }
 #mobile-trigger {
     color: #fff;
-    display: none;
+    font-size: 34px;
+}
+.mobile-trigger {
     width: 100%;
     text-align: center;
-    font-size: 34px;
+    display: none;
+
 }
 #mobile-trigger:hover {
     cursor:pointer;
 }
 .sticky #mobile-trigger {
     color: #ccc;
+}
+
+.contact-list li {
+    width: 50%;
+    float: left;
+    padding: 5px 0;
 }
 
 /* ################  MEDIA QUERIES ################ */
@@ -259,11 +268,22 @@ a.github-link {
         display: block;
         margin-bottom: 25px;
     }
+    .contact-list {
+        padding: 0;
+    }
+    .contact-list li {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
 
     /* ### MOBILE MENU ### */
 
     .header-menu {
         display:none;
+    }
+    .mobile-trigger {
+        display: block;
     }
     .mobile-menu .header-menu {
         display:block;
@@ -283,6 +303,6 @@ a.github-link {
         border-top: 1px solid #ccc;
     }
     #mobile-trigger {
-        display: block;
+        display: inline-block;
     }
 }
