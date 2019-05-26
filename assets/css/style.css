@@ -218,12 +218,12 @@ a.github-link {
 }
 #mobile-trigger {
     color: #fff;
-    display: none;
     font-size: 34px;
 }
 .mobile-trigger {
     width: 100%;
     text-align: center;
+    display: none;
 
 }
 #mobile-trigger:hover {
@@ -236,7 +236,7 @@ a.github-link {
 .contact-list li {
     width: 50%;
     float: left;
-    padding: 5px 0
+    padding: 5px 0;
 }
 
 /* ################  MEDIA QUERIES ################ */
@@ -281,6 +281,9 @@ a.github-link {
 
     .header-menu {
         display:none;
+    }
+    .mobile-trigger {
+        display: block;
     }
     .mobile-menu .header-menu {
         display:block;
