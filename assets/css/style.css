@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Slab&display=swap');
 @keyframes slideInLeft {
     0% {
       right: -700px;
@@ -42,11 +43,12 @@ html, body {
 }
 * {
     /* color: #777; */
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
+    font-family: 'Poppins', serif;
     transition: all .5s ease;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Poppins', sans-serif;
     color: #4aaaa5;
     text-transform: uppercase;
 }
