@@ -218,6 +218,9 @@ a.github-link {
 .portfolio-item-wrapper:hover a.github-link {
     opacity: 1;
 }
+.portfolio-item-wrapper a.github-link:hover {
+    color: #4aaaa5;
+}
 #mobile-trigger {
     color: #fff;
     font-size: 34px;
